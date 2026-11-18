@@ -1,5 +1,13 @@
 # CRONOS release history
 
+## Documentation and publishing update — 2026-11-18
+
+- Add a comprehensive Arabic guide covering Termux setup, Git/ZIP source acquisition, the current fresh-install lock limitation, existing-install upgrades, installer stages, launch checks, interactive menus, CLI downloads, queue authorization, settings, file locations, backups, source/engine updates, sharing, troubleshooting and maintainer validation.
+- Explain that cloning source does not install the app, that system packages may change before a missing-lock failure, and that engine updates do not update CRONOS source.
+- Document Python 3.12+, Node.js 22+, the application's own Python environment, per-transfer bandwidth limits, and the explicit lock-file path for Git checkouts.
+- Add AGENTS.md with the owner's standing request to publish completed CRONOS Termux updates to this repository, update documentation/history, preserve remote work and verify uploaded contents.
+- Documentation-only change: package version remains 3.0.1. The dependency lock and runtime code are unchanged; no clean Android installation or live media transfer is claimed by this update.
+
 ## v3.0.1 — Security hardening candidate (2026-11-17)
 
 - Enforce per-job session-bound authorization receipts and explicit reapproval for older queue jobs, with a configurable large-batch threshold.
