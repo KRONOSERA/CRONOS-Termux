@@ -1,0 +1,5 @@
+# CRONOS: no lock was fabricated in an offline build environment.
+# This fail-closed placeholder MUST be replaced with a generated and reviewed
+# SHA-256 hashed lock from scripts/generate_lock.sh on a networked Termux device.
+# Locked installation and engine update reject this file until then.
+# See SECURITY.md for the trust and migration process.

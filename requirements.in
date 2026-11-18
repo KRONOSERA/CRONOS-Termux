@@ -1,0 +1,7 @@
+# Human-review these direct requirements before regenerating the lock.
+# The lock includes their full transitive dependency graph.
+yt-dlp[default]>=2026.10.26
+yt-dlp-ejs
+rich>=13.7,<16
+questionary>=2,<3
+mutagen>=1.47,<2
